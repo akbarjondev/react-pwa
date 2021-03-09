@@ -50,7 +50,7 @@ function App () {
 
 			const kesh = await caches.open("sample_app")
 
-			const request = new Request(serviceUrl)
+			const request = new Request(serviceUrl + '/users')
 
 			try {
 				const response = await fetch(request)
