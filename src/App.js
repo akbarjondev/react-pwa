@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 import io from "socket.io-client"
 
-const serviceUrl = "ws://localhost:4050"
+const serviceUrl = "ws://server-to-deploy.herokuapp.com"
 
 function App () {
 
